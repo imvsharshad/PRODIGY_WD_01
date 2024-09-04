@@ -1,0 +1,176 @@
+@media (max-width : 435px) {
+    .navbar{
+        display: grid;
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        /* justify-content: center; */
+        z-index: 2;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 2fr;
+        grid-template-rows: 50px;
+        
+    }
+
+    .PS{
+        display: none;
+    }
+    .navbar-icon{
+        scale: 1.5;
+    }
+
+    .steam-icon{
+        scale: 1.4;
+    }
+
+    .search:hover .searchbox{
+        width: 100px;
+        transition: width 0.5s ease-out;
+    }
+    .playstation-icon:hover{
+        cursor: pointer;
+        scale: 2;
+        color: rgb(255, 255, 255);
+    }
+
+    .gos-container{
+        display: none;
+    }
+
+    .side-content-main, .side-content2-main{
+        display: none;
+    }
+
+    .swiper-slide #sekiroBG{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;    
+    }
+
+    #sekiro{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 5%;
+        left: 0;
+        object-fit: contain;
+        object-position: center;
+        scale: 0.75;
+        /* border: 1px solid red; */
+        
+    }
+    
+    .socials{
+        display: none;
+    }
+
+    #swiper #swiper-button-prev{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 97%;
+        left: -15%;
+        scale: 0.4;
+        color: rgb(255, 255, 255);
+    }
+    
+    #swiper #swiper-button-next{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 97%;
+        left: 15%;
+        scale: 0.4;
+        color: rgb(255, 255, 255);
+    }
+
+    .swiper .swiper-pagination{
+        /* display: none; */
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        top: 93%;
+        left: 42.5%;
+        scale: 1;
+        z-index: 3;
+        /* border: 1px solid red; */
+        width: auto;
+        height: 10px;
+    }
+
+    
+    #goslogo2{
+        position: absolute;
+        top: 35%;
+        left: 0;
+        height: 30%;
+        width: 100%;
+        object-fit: contain;
+        object-position: center;
+        scale: 3;
+        /* border: 1px solid red; */
+    }
+
+    .swiper-slide #gosbg{
+        height: 50%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        /* scale: 1; */
+        position: absolute;
+        left: 0;
+        top: 50%;
+    }
+    
+    .gos-slide{
+        background-color: black;
+    }
+    
+    #death{
+        position: absolute;
+        /* height: 100%;
+        width: 100%; */
+        scale: 0.1;
+        left: -50%;
+        top: -45%;
+        object-position: center;
+        /* backdrop-filter: blur(5px); */
+    
+    }
+    #goslogo{
+        position: relative;
+        height: 50%;
+        width: 50%;
+        object-fit: cover;
+        object-position: center;
+        top: 20%;
+        left: 0%;
+        scale: 1;
+    }
+    
+    #rorlogo{
+        position: absolute;
+        left: 24%;
+        top: 0%;
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+        scale: 0.5;
+        object-fit: contain;
+    }
+
+    .trailer-main{
+        display: none;
+    }
+
+    iframe{
+        display: none;
+    }
+
+    
+    
+    
+}
